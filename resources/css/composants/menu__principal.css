@@ -1,0 +1,29 @@
+.menu__principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--noir);
+    width: 100%;
+}
+
+.menu__principal > * {
+    padding: var(--petit-1-px);
+    color: var(--blanc-2);
+}
+
+.menu__principal > a {
+    width: 40px;
+}
+
+.menu__principal a{
+    transition: all 0.3s ease-in-out;
+}
+
+.menu__principal a:hover{
+    transform: scale(1.15);
+}
+
+.menu__principal_pages {
+    display: flex;
+    gap: 20px;
+}

@@ -1,0 +1,59 @@
+:root{
+    /* RYTHME */
+    /* TYPOGRAPHY SCALE*/
+    --h1-rem: 2.986rem;
+    --h2-rem: 2.488rem;
+    --h3-rem: 2.074rem;
+    --h4-rem: 1.724rem;
+    --p-rem:1rem;
+    --small-rem:0.833rem;
+    
+    --h1-px: 47.78px;
+    --h2-px: 38.81px;
+    --h3-px: 33.18px;
+    --h4-px: 27.65px;
+    --p-px: 16px;
+    --small-px: 13.33px;
+    
+    /* ESPACEMENT */
+    --grand-px: 60.78px;
+    --moyen-1-px: 43.81px;
+    --moyen-2-px: 38.18px;
+    --moyen-3-px: 32.65px;
+    --petit-1-px: 16px;
+    --petit-2-px: 13.33px;
+    
+    /* COLORS */
+    --noir: #1a1a1a;
+    --blanc-1: #fff;
+    --blanc-2: #FFEDDD;
+    --gris-1: rgb(235, 235, 235);
+    --gris-2: rgb(194, 194, 194);
+    --gris-3: rgb(144, 144, 144);
+    
+}   
+
+/* Typographie */
+
+.allura-regular {
+	font-family: "Allura", serif;
+	font-weight: 200;
+	font-style: normal;
+}
+
+.roboto {
+	font-family: "Roboto", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 300;
+	font-style: normal;
+	font-variation-settings:
+	  "wdth" 100;
+  }
+
+  .montserrat {
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 300;
+	font-style: normal;
+  }
+  

@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* STYLE CSS */
+html {
+  display: flex;
+  min-height: 100%;
+}
+
+body {
+  flex-grow: 1;
+  min-height: 100%;
+  background-color: snow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: var(--grand-px);
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: var(--h2-rem);
+  margin-bottom: var(--moyen-3-px);
+}
+
+p {
+  margin-bottom: var(--petit-2-px);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input ~ a{
+  text-decoration: underline;
+  color: blue;
+}
+
+
+input ~ a:hover{
+  color: inherit;
+}
+
+button {
+  border: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* MAIN */
+main > * {
+  margin-bottom: var(--grand-px);
+}

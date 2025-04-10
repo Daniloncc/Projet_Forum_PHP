@@ -1,0 +1,26 @@
+.flex__vertical {
+    display: flex;
+    flex-direction: column;
+    
+    min-width: 40vw;
+    margin-inline: auto;
+}
+
+.flex__vertical label ~ input{
+   margin-bottom: 20px;
+  
+   border-radius: 20px;
+   border: 1px solid var(--gris-3);
+   padding: 10px 15px;
+}
+
+.flex__vertical label {
+    font-size: 25px;
+    margin-bottom: 5px;
+ }
+
+ .flex__vertical-grand {
+    min-width: 40vw;
+    max-width: 70vw;
+
+}

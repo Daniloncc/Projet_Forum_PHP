@@ -1,0 +1,15 @@
+/* Generalites */
+@import "./base/general.css";
+@import "./base/variables.css";
+
+/* Composants */
+@import "./composants/menu__principal.css";
+@import "./composants/pied__page.css";
+@import "./composants/flex__vertical.css";
+@import "./composants/btn.css";
+@import "./composants/carte.css";
+@import "./composants/boite.css";
+@import "./composants/choix__bouton.css";
+
+/* Exeptions */
+@import "./composants/alerte.css";

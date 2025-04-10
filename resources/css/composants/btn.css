@@ -1,0 +1,22 @@
+.btn {
+  margin-top: var(--grand-px);
+  background-color: var(--gris-1);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  margin-top: var(--grand-px);
+  background-color: var(--noir);
+  color: var(--blanc-2);
+}
+
+.btn-noir {
+  background-color: var(--noir);
+  color: var(--blanc-2);
+}
+
+.btn-noir:hover {
+  background-color: var(--gris-1);
+  color: var(--noir);
+}

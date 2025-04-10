@@ -1,0 +1,20 @@
+.carte {
+  padding: var(--p-px);
+  background-color: var(--gris-1);
+  border-radius: 15px;
+
+  
+  & span {
+    font-size: var(--p-px);
+    
+  }
+  
+  & small {
+    font-size: var(--p-px);
+    color: rgb(0, 0, 137);
+  }
+  
+  & .flex__vertical{
+  max-width: 100%;
+  }
+}

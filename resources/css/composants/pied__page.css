@@ -1,0 +1,8 @@
+.pied__page{
+    /* position: absolute;
+    bottom: 0; */
+    margin-top: auto;
+    margin-inline: auto;
+    padding: var(--petit-2-px);
+    text-align: center;
+}
