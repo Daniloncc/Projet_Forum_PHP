@@ -46,8 +46,8 @@ function gestion_validerMotPass ($mot_pass){
 }
 
 // Fonction pour valider que le nom c'est juste avec des lettres
-function gestion_validerNom($nom){
-    $pattern = '/^\p{L}+$/u';
+function gestion_validerNom($nom) {
+    $pattern = '/^[\p{L}\s]+$/u';
     return preg_match($pattern, $nom);
 }
 
