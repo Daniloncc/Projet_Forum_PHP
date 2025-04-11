@@ -6,7 +6,7 @@ function base_controller_index(){
         'nav1' => 'Forum',
         'nav2' => 'Creer votre compte',
         'nav3' => 'Connectez-vous',
-        'lien1' => '?controller=user&function=forum',
+        'lien1' => '?controller=forum&function=forum',
         'lien2' => '?controller=user&function=create',
         'lien3' => '?controller=user&function=login',
     ];
